@@ -1,3 +1,4 @@
+import math
 # Introduction
 # Day 1 - 30DaysOfPython Challenge
 
@@ -21,3 +22,12 @@ print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
 print(type(3 == 3))              # Bool
 print(type(3 >= 3))              # Bool
+
+print(type('Michael Quaye'))
+print(type(4+3j))
+
+# FINDONG EUCLIDIAN DISTANCE
+p1q1 = (2-10)**2
+p2q2 = (3-8)**2
+d = math.sqrt(p1q1 + p2q2)
+print(d)
