@@ -1,40 +1,59 @@
+# Day2: 30 DAYS OF PYTHON PROGRAMING
 
-# Variables in Python
+first_name = 'Michael'
+last_name = 'Quaye'
+full_name = 'Micahael Quaye'
+country = 'Ghana'
+city = 'Accra'
+age = 19
+year = 2025
+is_married = False
+is_true = True
+is_light_on = True
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
-age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
-person_info = {
-    'firstname':'Asabeneh', 
-    'lastname':'Yetayeh', 
-    'country':'Finland',
-    'city':'Helsinki'
-    }
+personal_info= {
+    'firstname': 'Michael',
+    'lastname' : 'Quaye',
+    'country': 'Ghana',
+    'city' : 'Accra'
+}
 
-# Printing the values stored in the variables
+# print(personal_info)
 
-print('First name:', first_name)
-print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
 
-# Declaring multiple variables in one line
+print(len(first_name))
+print(len(last_name))
+ 
+num_one = 5
+num_two = 4
+total = num_one + num_two
+print(total)
+diff = num_two - num_one
+print(diff)
+product = num_one * num_two
+print(product)
+division = num_one / num_two
+print(division)
+remainder = num_two %num_one
+print(remainder)
+exp = num_one ** num_two
+print(exp)
+floor_division = num_one // num_two
+print(floor_division)
 
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+radius = input('Enter radius: ')
+radius = float(radius)
+pi = 3.142
+_area_of_circle = pi * (radius**2)
+print(_area_of_circle)
 
-print(first_name, last_name, country, age, is_married)
-print('First name:', first_name)
-print('Last name: ', last_name)
-print('Country: ', country)
-print('Age: ', age)
-print('Married: ', is_married)
+_circum_of_circle = 2 *(pi*radius)
+print(_circum_of_circle)
+
